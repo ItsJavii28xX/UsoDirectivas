@@ -1,0 +1,29 @@
+.listContainer {
+
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    overflow: hidden;
+
+  }
+  
+.customStyle {
+
+    font-family: 'Comic Sans MS', cursive;
+    animation: rotate 2s linear infinite;
+  
+}
+  
+@keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+}
+
+/* La animación se la he pedido al oráculo */
